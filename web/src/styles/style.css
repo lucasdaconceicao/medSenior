@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0e0e04d;
+}
+main{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ html,body,main{
+    height: 100%;
+}
+body, input, button{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    -webkit-box-shadow: 7px 5px 25px -1px rgba(0,0,0,0.30);
+    -moz-box-shadow: 7px 5px 25px -1px rgba(0,0,0,0.30);
+    box-shadow: 7px 5px 25px -1px rgba(0,0,0,0.30);
+    height: 650px;
+    width: 400px;
+}
+div#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;    
+}
+form h3#title_form{
+    color: #9ACD32;
+    font-weight: 400;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-top: 100px;
+}
+form h3#title_form span{
+    color: #006400;
+}
+form span#subtitle_form{
+    display: block;
+    color: #006400;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 40px;
+}
+form .input_block input{
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    padding: 15px;
+    height: 52px;
+    border:0;
+    margin-top: 20px;
+    background-color: #a9a9a938;
+}
+form .input_block ::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #000000bd;
+} 
+form span#redirectLoginRegistrar{
+    margin-top: 26px;
+    font-size: 0.8rem;
+    color: #948e8e;
+    margin-left: 5%;
+    display: inline-block;
+}
+form #redirectLoginRegistrar a{
+    color:#006400;
+    text-decoration: none;
+}
+form p.erro{
+    color: #ff3333;
+    margin-top: 4px;
+    text-align: center;
+
+}
+form button[type=submit]{
+    width: 56%;
+    height: 24%;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    background-color: #3b6330;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    form{
+        height: 100%;
+        width: 100%;
+    }
+    div#button{
+        height: 27%;
+    }
+    form button[type=submit]{
+        width: 56%;
+        height: 34%;
+    }    
+}

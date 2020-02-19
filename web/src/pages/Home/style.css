@@ -1,0 +1,23 @@
+#subtitle{
+    color: green;
+    font-size: 22px;
+}
+
+.container{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+p.conteudoPrincipal{
+    margin-top: 30px;
+}
+#buttonLogout{
+    display: flex;
+    justify-content: flex-end;
+}
+#buttonLogout button{
+    color: #ff00008c;
+    font-size: 22px;
+    border: 0;
+    cursor: pointer;
+}
